@@ -9,7 +9,6 @@ namespace PracticeInterfaces
     internal interface IChargeable
     {
         public void Charge();
-        public string GetInfo();
-        
+        public string GetInfo();  
     }
 }

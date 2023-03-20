@@ -8,7 +8,7 @@ namespace PracticeInterfaces
 {
     interface IFlyingRobot : IRobot
     {
-        default new string GetRobotType()
+        new string GetRobotType()
         {
             return "I am a flying robot";
         }

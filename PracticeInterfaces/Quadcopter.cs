@@ -21,11 +21,9 @@ namespace PracticeInterfaces
             Thread.Sleep(3000);
             Console.WriteLine("Charged!");
         }
-      
         public string GetInfo()
         {
-            string info = $"Type: {GetRobotType()}\nComponents:{string.Join(",", GetComponents())}\n";
-
+            string info = $"\nComponents:{string.Join(",", GetComponents())}\n";
             return info;
         }
 
