@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PracticeInterfaces
 {
-    internal interface IFlyingRobot : IRobot
+    interface IFlyingRobot : IRobot
     {
-        public new string GetRobotType()
+        default new string GetRobotType()
         {
             return "I am a flying robot";
         }
